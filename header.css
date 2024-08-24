@@ -1,0 +1,101 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 110px;
+}
+
+.left-section {
+    margin-left: 70px;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 560px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 45px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37 );
+
+}
+
+.right-section {
+    margin-right: 70px;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#on-off {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 75px;
+    padding-left: 7px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37 );
+}
+
+#btn {
+    color: rgba(255, 255, 255, 0.651);
+}
+
+#btn:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#company-name {
+    font-size: 25px;
+    color: white;
+}
+
+#en {
+    color: black;
+}
+
+#de {
+    color: white;
+}
+
+.en-container {
+    display: grid;
+    place-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#login-btn {
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
